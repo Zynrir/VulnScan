@@ -1,7 +1,7 @@
 # VulnScan
-Esta es una aplicación escrita en bash, para la comprobación de que sistema operativo, escaneo de puertos tanto TCP como UDP, extracción de información de los puertos, escaneo de Vulnerabilidades de los puertos abiertos, y extracción de información de las versiones de los servicios.
+It is a Bash script that implements a vulnerability scanning tool. It allows performing various actions related to network scanning and vulnerability assessment. Users can verify the operating system of an IP address, perform TCP and UDP port scans, extract information from the scans performed, perform vulnerability scans on specific ports and extract information about the vulnerabilities found.
 
-Se  requieren de permisos de administrador.
+Administrator permissions are required.
 
-Gracias a @s4vitar ya que he cogido 2 funciones de de su script:
+Thanks to @s4vitar as I have taken 2 functions from his script:
 https://s4vitar.github.io/bspwm-configuration-files/#
