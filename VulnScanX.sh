@@ -95,7 +95,7 @@ do
                         ;;
                     2)
                         echo "Scanning ports UDP to $ip"
-                        nmap -p --open -sS --min-rate 5000 -vvv -n -Pn $ip -oG ports
+                        nmap -p --open -sU --min-rate 5000 -vvv -n -Pn $ip -oG ports
                         read -p "Press Enter to return to the submenu"
                         ;;
                     3)
